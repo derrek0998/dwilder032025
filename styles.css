@@ -1,0 +1,87 @@
+body {
+  background-color: #c72b29;
+}
+
+.container {
+  max-width: 75rem;
+  min-height: 10rem;
+  margin: auto;
+  background-color: #b49a5e;
+  padding: 1rem;
+}
+
+#pageheader {
+  background-color: black;
+  min-height: auto;
+  padding: 0.25rem;
+}
+#logo {
+  background-image: url(Images/FTTB.png);
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+#pageheader .container {
+  background-color: white;
+  min-height: auto;
+}
+#pageheader nav {
+  text-align: center;
+}
+
+#media {
+  background-color: white;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/49ers.png);
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+}
+
+#career {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagecontent {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester1 {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester2 {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagefooter {
+  background-color: #f5571d;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagefooter .container {
+  min-height: auto;
+  text-align: center;
+  background-color: #c72b29;
+}
+#subfooter {
+  background-color: black;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  border: 5px solid #b49a5e;
+  background-color: #b49a5e;
+  display: block;
+  margin: auto;
+}
