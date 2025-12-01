@@ -72,6 +72,15 @@ body {
   text-align: center;
   background-color: #c72b29;
 }
+#aifooter {
+  padding: 1rem;
+  background-color: #c72b29;
+  min-height: auto;
+}
+#aifooter .container {
+  min-height: auto;
+  text-align: center;
+}
 #subfooter {
   background-color: black;
   min-height: 10rem;
