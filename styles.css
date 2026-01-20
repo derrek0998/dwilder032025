@@ -29,6 +29,21 @@ body {
   text-align: center;
 }
 
+#pageheader nav ul {
+  background-color: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#pageheader nav ul li {
+  border: 2px solid #0d0901;
+  padding: 1rem;
+  margin: 2px;
+}
+#pageheader nav ul li:hover {
+  background-color: red;
+}
 #media {
   background-color: white;
   min-height: 10rem;
@@ -48,6 +63,7 @@ body {
   background-color: black;
   min-height: 10rem;
   padding: 1rem;
+  text-align: center;
 }
 
 #semester1 {
@@ -95,12 +111,16 @@ audio {
   margin: auto;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 750px) {
+  #pageheader nav ul li {
+    display: inline-block;
+  }
   #pagecontent {
-    background-color: red;
+    background-color: #c72b29;
   }
 }
 @media screen and (min-width: 1000px) {
   #pagecontent {
     background-color: #b49a5e;
+  }
 }
