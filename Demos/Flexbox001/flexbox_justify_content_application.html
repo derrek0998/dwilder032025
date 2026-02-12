@@ -28,6 +28,40 @@
         margin-bottom: 1rem;
         border-radius: 5px;
       }
+      ul#list {
+        background-color: red;
+        display: block;
+        list-style-type: none;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+      }
+      #fbbuttons {
+        background-color: lightblue;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      div#cards {
+        background-color: lightgreen;
+        padding: 1rem;
+        display: flex;
+      }
+      ul#linklists {
+        background-color: lightsalmon;
+        display: block;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        min-height: 50px;
+      }
+
+      #linklists li {
+        border: 1px solid black;
+        height: 25px;
+      }
     </style>
   </head>
 
@@ -43,32 +77,35 @@
     </ul>
 
     <h2>Buttons</h2>
-    <button type="button">Button 1</button>
-    <button type="button">Button 2</button>
-    <button type="button">Button 3</button>
-    <button type="button">Button 4</button>
-    <button type="button">Button 5</button>
+    <div id="fbbuttons">
+      <button type="button">Button 1</button>
+      <button type="button">Button 2</button>
+      <button type="button">Button 3</button>
+      <button type="button">Button 4</button>
+      <button type="button">Button 5</button>
+    </div>
 
     <h2>Cards</h2>
-    <div class="card">
-      <h3>Card Title 1</h3>
-      <p>This is a description for card 1.</p>
+    <div id="cards">
+      <div class="card">
+        <h3>Card Title 1</h3>
+        <p>This is a description for card 1.</p>
+      </div>
+      <div class="card">
+        <h3>Card Title 2</h3>
+        <p>This is a description for card 1.</p>
+      </div>
+      <div class="card">
+        <h3>Card Title 3</h3>
+        <p>This is a description for card 1.</p>
+      </div>
     </div>
-    <div class="card">
-      <h3>Card Title 2</h3>
-      <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
-      <h3>Card Title 3</h3>
-      <p>This is a description for card 1.</p>
-    </div>
-
     <h2>Link Lists</h2>
-    <ul>
-      <li><a href="https://google.com">Google</a></li>
-      <li><a href="https://google.com">Google</a></li>
-      <li><a href="https://google.com">Google</a></li>
-      <li><a href="https://google.com">Google</a></li>
+    <ul id="linklists">
+      <li><a href="https://google.com">Google 1</a></li>
+      <li><a href="https://google.com">Google 2</a></li>
+      <li><a href="https://google.com">Google 3</a></li>
+      <li><a href="https://google.com">Google 4</a></li>
     </ul>
   </body>
 </html>
