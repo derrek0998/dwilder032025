@@ -1,3 +1,11 @@
+/* Mobile Styles - Default */
+:root {
+  --primary-color: #b49a5e;
+  --secondary-color: #c72b29;
+  --tertiary-color: #0d0901;
+  --main-font: arial;
+}
+
 body {
   background-color: #c72b29;
 }
@@ -6,8 +14,15 @@ body {
   max-width: 75rem;
   min-height: 10rem;
   margin: auto;
-  background-color: #b49a5e;
+  background-color: var(--primary-color);
   padding: 1rem;
+}
+
+.container a {
+  color: white;
+}
+.container a:hover {
+  color: red;
 }
 
 #pageheader {
@@ -19,10 +34,13 @@ body {
   background-image: url(Images/FTTB.png);
   width: 6.25rem;
   height: 6.25rem;
+  margin: auto;
+  transition: all 2s;
+  background-color: #b49a5e;
 }
 
 #pageheader .container {
-  background-color: white;
+  background-color: #b49a5e;
   min-height: auto;
 }
 #pageheader nav {
@@ -66,6 +84,9 @@ body {
   text-align: center;
 }
 
+p {
+  line-height: 1.5;
+}
 #semester1 {
   background-color: black;
   min-height: 10rem;
@@ -110,15 +131,19 @@ audio {
   display: block;
   margin: auto;
 }
-
+/* Tablet View */
 @media screen and (min-width: 750px) {
   #pageheader nav ul li {
     display: inline-block;
+  }
+  #logo {
+    margin: 0;
   }
   #pagecontent {
     background-color: #c72b29;
   }
 }
+/* Desktop View */
 @media screen and (min-width: 1000px) {
   #pagecontent {
     background-color: #b49a5e;
