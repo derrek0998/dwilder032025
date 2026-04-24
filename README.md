@@ -1,5 +1,3 @@
 # Derrek Wilder
 
-## Portfolio
-
-### New Deploy
+## Web Developer
