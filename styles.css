@@ -98,7 +98,19 @@ p {
   min-height: 10rem;
   padding: 1rem;
 }
-
+#worksamples {
+  background-color: #c72b29;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates {
+  background-color: #c72b29;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates ul {
+  list-style-type: none;
+}
 #pagefooter {
   background-color: #f5571d;
   min-height: 10rem;
