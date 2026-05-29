@@ -103,6 +103,9 @@ p {
   min-height: 10rem;
   padding: 1rem;
 }
+#worksamples ul {
+  list-style-type: none;
+}
 #certificates {
   background-color: #c72b29;
   min-height: 10rem;
